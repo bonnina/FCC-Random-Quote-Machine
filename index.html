@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FCC Random Quote Machine</title>
+        
+        <meta content-type="text/html" charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Bad+Script|BenchNine|Dawning+of+a+New+Day|Marck+Script|Poiret+One|Special+Elite" rel="stylesheet">
+            <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+			<link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+<div class="container-fluid"> 
+    <div id="quote">
+     <div id="area"> 
+        <p id="words">Quote</p>
+        <p id="author">Author</p>
+     </div>   
+      <div class="row">
+        <div class="col-xs-6 text-right">
+          <a class="twitter-share-button" href="#">
+            <button id="tw" class="btn btn-primary btn-md text-center">tweet it
+              <i class="fa fa-twitter"></i>
+            </button>
+          </a>
+        </div>
+        <div class="col-xs-6 text-left">
+          <button class="btn btn-md" id="next">next quote</button>
+        </div>
+     </div>
+   </div>
+    <p id="footer" class="text-center">Copyright © Homiak 2017. All Rights Reserved</p> 
+ </div> 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	
+</body>
+</html>
+
+<!--
+.body
+.container-fluid
+   #quote
+      #area
+         p#words Quote
+         p#author Author
+      .row
+         .col-xs-6.text-right
+            a.twitter-share-button(href="#")
+                button#tw.btn.btn-primary.btn-md tweet it 
+                   i.fa.fa-twitter
+         .col-xs-6.text-left
+            button#next.btn.btn-md next quote
+footer
+-->

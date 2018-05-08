@@ -1,0 +1,36 @@
+.container-fluid {
+  background-color: #52527a;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 140vh; 
+}
+#quote {
+  margin: 12vw 10vw 10vw 15vw;
+  width: 66vw;
+  height: 26vw;
+  background-color: rgba(204, 204, 204, 0.6);
+  
+}
+#area{
+  width: 66vw;
+  height: 20vw;
+  padding: 4vw 4vw 2vw 4vw;
+} 
+#words {
+  font: 2.5vw "Special Elite", sans-serif;
+  color: #000000;
+  line-height: 1.3;
+  
+}
+#author {
+  font: 2vw "Dawning of a New Day", sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+.btn {
+  font-size: 1.5vw;
+}
+.btn:focus, .btn:active {
+   outline: none !important;
+}
